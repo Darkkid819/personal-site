@@ -151,7 +151,7 @@ const contentArray = [
           case 'projects':
             const projects = [
               { name: 'Tetris', url: 'https://github.com/Darkkid819/tetris' },
-              { name: 'AsciiPy', url: 'https://github.com/Darkkid819' },
+              { name: 'AsciiPy', url: 'https://github.com/Darkkid819/asciipy' },
               { name: 'AutoPy', url: 'https://github.com/Darkkid819' },
               { name: 'Course Assigner', url: 'https://github.com/Darkkid819/Course-Assigner' },
               { name: 'WordWeaver', url: 'https://github.com/Darkkid819/WordWeaver' },
