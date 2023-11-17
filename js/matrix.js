@@ -1,16 +1,22 @@
 const canvas = document.getElementById('matrix-canvas');
 const context = canvas.getContext('2d');
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-
 const katakana = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}';
 const letters = katakana.split('');
 
 const fontSize = 16;
-const columns = canvas.width / fontSize;
+let drops = [];
 
-const drops = new Array(Math.floor(columns)).fill(1);
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+const columns = canvas.width / fontSize;
+drops = new Array(Math.floor(columns)).fill(1);
+
+function setupCanvas() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  const columns = canvas.width / fontSize;
+}
 
 function drawMatrix() {
   context.fillStyle = 'rgba(0, 0, 0, 0.05)';
@@ -29,5 +35,7 @@ function drawMatrix() {
     }
   }
 }
+
+window.addEventListener('resize', setupCanvas);
 
 setInterval(drawMatrix, 20);

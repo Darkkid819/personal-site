@@ -52,11 +52,11 @@ const contentArray = [
                   <div class="system-info">
                       jordan@Website<br>
                       --------------<br>
-                      OS: Human v2004.08.19<br>
+                      OS: v2004.08.19<br>
                       Host: Suffolk County Community College<br>
-                      Kernel: Determination 4.0 + Creativity 3.2.1<br>
+                      Kernel: Panic + Debug<br>
                       Uptime: ${uptimeYears} Years<br>
-                      Shell: /bin/ambition<br>
+                      Shell: bash-my-head-against-the-keyboard<br>
                       Terminal: IRL<br>
                       CPU: Caffeinated Thinker<br>
                       GPU: FP32 Bit Level Hacking<br>
@@ -151,7 +151,7 @@ const contentArray = [
           case 'projects':
             const projects = [
               { name: 'Tetris', url: 'https://github.com/Darkkid819/tetris' },
-              { name: 'AsciiPy', url: 'https://github.com/Darkkid819/asciipy' },
+              { name: 'AsciiPy', url: 'https://github.com/Darkkid819' },
               { name: 'AutoPy', url: 'https://github.com/Darkkid819' },
               { name: 'Course Assigner', url: 'https://github.com/Darkkid819/Course-Assigner' },
               { name: 'WordWeaver', url: 'https://github.com/Darkkid819/WordWeaver' },

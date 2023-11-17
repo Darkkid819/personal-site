@@ -8,6 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1vw;
 }
 
 pre {
@@ -35,14 +36,14 @@ canvas#matrix-canvas {
   flex-direction: row;
   align-items: stretch;
   background-color: #1e1e1e;
-  padding: 20px;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
   position: fixed;
-  top: 60px;
-  left: 100px;
-  right: 100px;
-  bottom: 60px;
+  padding: 1vw;
+  top: 5vh;
+  left: 5vw;
+  right: 5vw;
+  bottom: 5vh;
   overflow-y: auto;
   overflow-x: hidden;
   opacity: 0;
@@ -66,16 +67,16 @@ canvas#matrix-canvas {
 }
 
 #terminal .arch-logo {
-  max-width: 400px;
+  width: 20vw;
   height: auto;
 }
 
 #terminal .system-info-container {
-  width: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
+  width: 20vw;
+  height: 10vh;
 }
 
 #terminal .system-info {
@@ -87,12 +88,12 @@ canvas#matrix-canvas {
 
 #terminal .color-bars {
   display: flex;
-  flex-grow: 1;
+  width: 100%;
   margin-top: 50px;
 }
 
 #terminal .color-bar {
-  height: 30px; 
+  height: 3vh; 
   flex: 1;
   margin-right: 4px;
 }
@@ -172,7 +173,7 @@ canvas#matrix-canvas {
   margin: 50px;
   line-height: 1.5;
   text-align: left; 
-  max-width: 200px;
+  max-width: 12vw;
   opacity: 0; 
   animation: slideIn 1s forwards;
 }
@@ -222,7 +223,7 @@ canvas#matrix-canvas {
 .projectItem {
   margin-bottom: 10px;
   transition: color 0.3s;
-  font-size: 48px;
+  font-size: 3vw;
 }
 
 .projectItem a {
@@ -268,12 +269,15 @@ canvas#matrix-canvas {
 .social-btn i {
   flex-grow: 1;
   text-align: center; 
-  font-size: 50px;
+  font-size: 3vw;
   transition: font-size 0.3s ease-in-out; 
 }
 
-.social-btn:hover i {
-  font-size: 70px; 
+.github:hover i
+.discord:hover i,
+.youtube:hover i,
+.twitter:hover i {
+  font-size: 4vw;
 }
 
 .social-btn:hover {
@@ -292,7 +296,7 @@ canvas#matrix-canvas {
   border: none;
   background-color: transparent;
   animation: fadeIn 1s forwards;
-  font-size: 16px;
+  font-size: 1.5vw;
 }
 
 .contact-btn:hover {
