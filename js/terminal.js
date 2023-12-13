@@ -156,7 +156,6 @@ const contentArray = [
               { name: 'DoomPy', url: 'https://github.com/Darkkid819' },
               { name: 'CapturePy', url: 'https://github.com/Darkkid819' },
               { name: 'ft tracker', url: 'https://github.com/Darkkid819' },
-              { name: 'Discord plays Pokemon', url: 'https://github.com/Darkkid819' },
               { name: 'Course Assigner', url: 'https://github.com/Darkkid819/Course-Assigner' },
               { name: 'WordWeaver', url: 'https://github.com/Darkkid819/WordWeaver' },
               { name: 'JStocks', url: 'https://github.com/Darkkid819' }
