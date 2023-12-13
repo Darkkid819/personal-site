@@ -54,7 +54,6 @@ const contentArray = [
                       --------------<br>
                       OS: v2004.08.19<br>
                       Host: Suffolk County Community College<br>
-                      Kernel: Panic + Debug<br>
                       Uptime: ${uptimeYears} Years<br>
                       Shell: bash-my-head-against-the-keyboard<br>
                       Terminal: IRL<br>
@@ -151,8 +150,13 @@ const contentArray = [
           case 'projects':
             const projects = [
               { name: 'Tetris', url: 'https://github.com/Darkkid819/tetris' },
+              { name: 'Game of Life', url: 'https://github.com/Darkkid819' },
               { name: 'AsciiPy', url: 'https://github.com/Darkkid819' },
               { name: 'AutoPy', url: 'https://github.com/Darkkid819' },
+              { name: 'DoomPy', url: 'https://github.com/Darkkid819' },
+              { name: 'CapturePy', url: 'https://github.com/Darkkid819' },
+              { name: 'ft tracker', url: 'https://github.com/Darkkid819' },
+              { name: 'Discord plays Pokemon', url: 'https://github.com/Darkkid819' },
               { name: 'Course Assigner', url: 'https://github.com/Darkkid819/Course-Assigner' },
               { name: 'WordWeaver', url: 'https://github.com/Darkkid819/WordWeaver' },
               { name: 'JStocks', url: 'https://github.com/Darkkid819' }
